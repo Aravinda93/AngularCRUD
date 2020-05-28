@@ -1,0 +1,28 @@
+.answerBottomYesNo input[type="radio"]{
+    margin-right:20px;
+}
+
+.help-block {
+  color: red;
+}
+
+.has-error input[type=text], 
+.has-error input[type=email], 
+.has-error select {
+    border-color: red;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-success input[type=text], 
+.has-success input[type=email], 
+.has-success select {
+    border-color: green;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.label-change{
+   color:red;
+   font-weight: bold;
+}
